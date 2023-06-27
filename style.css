@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-color: azure;
+}
+p{
+    font-size: 40px ;
+}
+a {
+    text-decoration: none;
+}
+
+.box {
+    font-size: 20px;
+    color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 10px;
+    background-color: #191919;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color: blue;
+    font-weight: 600;
+}
+
+.confirmacao {
+    width: 45%;
+    height: 45%;
+    background: rgb(151, 213, 20);
+    background: linear-gradient(58deg, rgba(151, 213, 20, 1) 0%, rgba(125, 126, 6, 0.7707457983193278) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 11px 7px 19px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 7px 19px 7px rgba(0,0,0,0.75);
+box-shadow: 11px 7px 19px 7px rgba(0,0,0,0.75);
+}
+.confirmacao p {
+    font-size: 50px;
+}
+
